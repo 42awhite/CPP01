@@ -1,5 +1,5 @@
-NAME = FIGHT
-SRC = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
+NAME = AAAAH
+SRC = main.cpp Harl.cpp
 
 OBJS	= ${SRC:.cpp=.o}
 
