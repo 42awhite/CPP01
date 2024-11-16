@@ -8,7 +8,7 @@ std::string replace(const std::string& line, const std::string& s1, const std::s
     size_t      pos = 0;
     size_t      found = 0;
 
-    while(found = line.find(s1, pos) != std::string::npos)
+    while ((found = line.find(s1, pos)) != std::string::npos)
     {
         new_str.append(line, pos, found - pos);
         new_str.append(s2);
