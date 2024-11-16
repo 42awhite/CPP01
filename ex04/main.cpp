@@ -44,7 +44,7 @@ int main(int argc, char **argv)
         return (1);
     }
 
-    std::ofstream outputfd("output");
+    std::ofstream outputfd(filename + ".replace");
     if(!outputfd)
     {
         std::cout << "Error: output failure" << std::endl;
